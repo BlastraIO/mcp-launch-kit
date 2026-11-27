@@ -1,14 +1,26 @@
 {
   "name": "mcp-launch-kit",
   "version": "1.0.0",
-  "description": "Get an MCP server ready for review and listed everywhere it belongs: a readiness check before submitting, and the submissions in the right order, with a record of what went where.",
-  "author": { "name": "Blastra", "url": "https://blastra.io" },
+  "description": "Get an MCP server ready for review, listed everywhere it belongs, and watched: a readiness check before submitting, the submissions in the right order with a record of what went where, and a health check of how each listing performs.",
+  "author": {
+    "name": "Blastra",
+    "url": "https://blastra.io"
+  },
   "homepage": "https://blastra.io/directories/mcp-directories",
   "repository": "https://github.com/BlastraIO/mcp-launch-kit",
   "license": "MIT",
-  "keywords": ["mcp", "mcp server", "mcp registry", "submit mcp server", "mcp directory", "claude connector", "chatgpt app"],
+  "keywords": [
+    "mcp",
+    "mcp server",
+    "mcp registry",
+    "submit mcp server",
+    "mcp directory",
+    "claude connector",
+    "chatgpt app"
+  ],
   "skills": [
     "./skills/mcp-readiness",
-    "./skills/list-your-mcp-server"
+    "./skills/list-your-mcp-server",
+    "./skills/mcp-listing-health"
   ]
 }

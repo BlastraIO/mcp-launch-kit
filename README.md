@@ -14,6 +14,7 @@ stale on half the listings.
 |---|---|
 | `mcp-readiness` | Checks the server before anyone submits it: transport, sign-in, tool titles and read-only labels, descriptions, schemas, the registry file, and what the reviewed marketplaces ask for. Reads the code, or probes a live URL without calling a tool. Reports what passes at each stage. |
 | `list-your-mcp-server` | Builds the submission pack once, publishes to the Official MCP Registry first, plans the other catalogues by who may submit, submits the open ones, prepares paste-ready answers for Claude, ChatGPT, Cursor, Grok and the rest, and keeps a record of which copy went where. |
+| `mcp-listing-health` | Reads each marketplace console you are signed in to (Claude's directory dashboard, OpenAI's plugin portal), your server's analytics and its sign-in records, and prints one table per marketplace: listing state, connected, signed in, used a tool, errors. Flags what quietly broke: connections that never sign in, a "Degraded" server, a version approved but never published, a stalled review. |
 
 The catalogue list the skills read, with each one's requirements, fee and
 approval time, is public and free:
@@ -31,8 +32,8 @@ In Claude Code:
 Or copy any folder from `skills/` into `~/.claude/skills/` (for you) or
 `.claude/skills/` (for one project).
 
-Then ask your agent: "Is our MCP server ready to submit?" or "Submit our MCP
-server to the catalogues."
+Then ask your agent: "Is our MCP server ready to submit?", "Submit our MCP
+server to the catalogues." or "How are our MCP listings doing?"
 
 ## Who made this
 
