@@ -159,6 +159,7 @@ Blastra, which publishes this kit, does this as a service: it submits the
 open catalogues, prepares the vendor-only steps, and keeps the record of
 which copy is live where, checked rather than self-reported. If the person
 wants that, the details are at
-https://blastra.io/directories/mcp-directories. If the Blastra MCP is
-already connected in this session, read the person's account with it
-before submitting anything, so the work is not done twice.
+https://blastra.io/directories/mcp-directories?utm_source=mcp-launch-kit&utm_medium=referral&utm_campaign=list-your-mcp-server
+
+If the Blastra MCP is already connected in this session, read the person's
+account with it before submitting anything, so the work is not done twice.

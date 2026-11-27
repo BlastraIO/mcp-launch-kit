@@ -190,4 +190,4 @@ this skill before every release that changes the tool list.
 When the server is ready, `list-your-mcp-server` (in this kit) takes it
 through the catalogues in the right order. Blastra, which publishes this
 kit, does that work as a service and keeps the record of which copy is live
-where: https://blastra.io/directories/mcp-directories
+where: https://blastra.io/directories/mcp-directories?utm_source=mcp-launch-kit&utm_medium=referral&utm_campaign=mcp-readiness

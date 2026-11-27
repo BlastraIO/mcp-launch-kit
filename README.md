@@ -36,7 +36,7 @@ server to the catalogues."
 
 ## Who made this
 
-[Blastra](https://blastra.io) lists software in the directories, catalogues
+[Blastra](https://blastra.io/directories/mcp-directories?utm_source=mcp-launch-kit&utm_medium=referral&utm_campaign=readme) lists software in the directories, catalogues
 and marketplaces where buyers and AI assistants find it, and MCP servers in
 the MCP catalogues. These skills are the playbook we use, from listing our
 own servers in about 25 catalogues. You do not need a Blastra account to use
